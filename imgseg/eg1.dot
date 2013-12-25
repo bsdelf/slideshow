@@ -1,0 +1,37 @@
+graph G {
+    ratio=1
+    ranksep=0.1;
+    nodesep=0.5;
+
+    node [fontname="Monaco"];
+
+    n11 [shape=circle, label="A", color=red, style=filled];
+    n12 [shape=circle, label="?"];
+    n13 [shape=circle, label="B", color=green, style=filled];
+    n14 [shape=circle, label="?"];
+
+    n21 [shape=circle, label="?"];
+    n22 [shape=circle, label="?"];
+    n23 [shape=circle, label="?"];
+    n24 [shape=circle, label="?"];
+
+    n31 [shape=circle, label="?"];
+    n32 [shape=circle, label="?"];
+    n33 [shape=circle, label="?"];
+    n34 [shape=circle, label="?"];
+
+    n41 [shape=circle, label="?"];
+    n42 [shape=circle, label="C", color=cyan, style=filled];
+    n43 [shape=circle, label="?"];
+    n44 [shape=circle, label="?"];
+
+    n11 -- n12 -- n13 -- n14;
+    n21 -- n22 -- n23 -- n24;
+    n31 -- n32 -- n33 -- n34;
+    n41 -- n42 -- n43 -- n44;
+
+    n11 -- n21 -- n31 -- n41;
+    n12 -- n22 -- n32 -- n42;
+    n13 -- n23 -- n33 -- n43;
+    n14 -- n24 -- n34 -- n44;
+}

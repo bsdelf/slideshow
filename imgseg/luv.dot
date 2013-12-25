@@ -1,0 +1,15 @@
+digraph {
+    node [fontname="Monaco"];
+
+    nl [shape=circle, label="L", color=gray, style=filled];
+    nu [shape=circle, label="U"];
+    nv [shape=circle, label="V"];
+
+    n [label="foo color"];
+    e [label="eye"];
+
+    e -> n;
+    n -> nl;
+    n -> nu;
+    n -> nv;
+}

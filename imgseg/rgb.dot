@@ -1,0 +1,13 @@
+digraph {
+    node [fontname="Monaco"];
+
+    nr [shape=circle, label="R", color=red, style=filled];
+    ng [shape=circle, label="G", color=green, style=filled];
+    nb [shape=circle, label="B", color=blue, style=filled];
+
+    n [label="foo color"];
+
+    n -> nr;
+    n -> ng;
+    n -> nb;
+}

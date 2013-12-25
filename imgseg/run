@@ -1,0 +1,1 @@
+pdflatex ./small.tex && mupdf small.pdf
